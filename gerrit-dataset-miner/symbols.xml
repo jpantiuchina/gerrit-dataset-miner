@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Endpoints  configuration</comment>
+     <entry key="DatabaseConnectionString">jdbc:mysql://localhost:3306/gerrit?user=gerrit&amp;sessionVariables=sql_mode='TRADITIONAL'</entry>
+    <entry key="GerritEndpoint">https://android-review.googlesource.com/</entry>
+    <entry key="ChangesQuery">status:reviewed+OR+status:merged+OR+status:open+OR+status:abandoned</entry>
+    <entry key="DownloadPause">5000</entry>
+    <entry key="Start">0</entry>
+    <entry key="Stop">3000000</entry>
+    <entry key="Limit">400</entry>
+    <entry key="MiningMode">query</entry>
+    <entry key="DownloadAttemptsLimit">3</entry>
+</properties>
